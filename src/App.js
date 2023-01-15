@@ -19,7 +19,7 @@ function App() {
     console.log('Number:', movieB.duration.substring(0, movieA.duration.length - 2))
     return (
       Number(movieA.duration.substring(0, movieA.duration.length - 2)) -
-      Number(movieA.duration.substring(0, movieB.duration.length - 2))
+      Number(movieB.duration.substring(0, movieB.duration.length - 2))
     );
   };
   const handleQueryMovies = (query, movies) => {
